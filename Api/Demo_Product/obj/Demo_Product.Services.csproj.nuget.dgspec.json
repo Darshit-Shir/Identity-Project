@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product\\Demo_Product.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj",
+        "projectName": "Demo_Product.Model",
+        "projectPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj",
+        "packagesPath": "C:\\Users\\sit378\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sit378\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product\\Demo_Product.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product\\Demo_Product.Services.csproj",
+        "projectName": "Demo_Product.Services",
+        "projectPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product\\Demo_Product.Services.csproj",
+        "packagesPath": "C:\\Users\\sit378\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sit378\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj": {
+                "projectPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj"
+              },
+              "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Project.Data\\Demo_Project.Data.csproj": {
+                "projectPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Project.Data\\Demo_Project.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Project.Data\\Demo_Project.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Project.Data\\Demo_Project.Data.csproj",
+        "projectName": "Demo_Project.Data",
+        "projectPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Project.Data\\Demo_Project.Data.csproj",
+        "packagesPath": "C:\\Users\\sit378\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Project.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sit378\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj": {
+                "projectPath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.143, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

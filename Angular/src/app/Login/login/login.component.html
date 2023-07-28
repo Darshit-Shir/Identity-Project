@@ -1,0 +1,26 @@
+<body>
+   <div class="wrapper" style="margin-top: 5%;">
+      <div class="title">
+         Login Form
+      </div>
+      <form #loginForm="ngForm" [formGroup]="formValue">
+         <div class="field">
+            <input type="email" name="Email" class="form-control" formControlName="email" ngModel required>
+              <label>Email Address</label>
+            </div>
+            <div *ngIf="formValue.controls['email'].dirty && formValue.hasError('required','email')" class="text-danger">email is required</div>
+            <div *ngIf="formValue.controls['email'].invalid && formValue.controls['email'].touched" class="text-danger">email is invalid</div>
+         <div class="field">
+            <input type="password" name="Password" class="form-control" formControlName="password" required ngModel>
+            <label>Password</label>
+        </div>
+        <div *ngIf="formValue.controls['password'].dirty && formValue.hasError('required','password')" class="text-danger">password is required</div>
+         <div class="field">
+            <input type="submit" (click)="login(loginForm)" value="Login">
+         </div>
+         <div class="signup-link">
+            Not a member? <a href="register">Signup now</a>
+         </div>
+      </form>
+   </div>
+</body>

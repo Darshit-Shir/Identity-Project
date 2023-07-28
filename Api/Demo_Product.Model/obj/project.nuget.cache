@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "osZtNG7r9LRmd8l7ZJVkcvjwQJPJECdcc39z12XMK5PVyPPYcbBCkCdorHw6IZTzB3N/Sw8vwPGy8TR8oLLdzw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sit378\\OneDrive - Shaligram Infotech LLP\\Desktop\\Demo_Project\\Identity_Practical\\Api\\Demo_Product.Model\\Demo_Product.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sit378\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\sit378\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\sit378\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

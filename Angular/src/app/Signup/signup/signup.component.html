@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Sign Up Form Design | CodeLab</title>
+   </head>
+   <body>
+      <div class="wrapper" style="margin-top: 5%;">
+         <div class="title">
+            Sign Up Form
+         </div>
+         <form #registerForm="ngForm" [formGroup]="formValue">
+            <div class="field">
+                <input type="text" (blur)="capitalizeFirstLetter(formValue.value.firstName)" [value]="fnameCap" formControlName="firstName" name="FirstName" required ngModel>
+                <label>First Name</label>
+            </div>
+            <div *ngIf="formValue.controls['firstName'].dirty && formValue.hasError('required','firstName')" class="text-danger">First name is required</div>
+            <div class="field">
+              <input type="text" name="LastName" (blur)="lnameCapitalize(formValue.value.lastName)" [value]="lnameCap" formControlName="lastName" required ngModel>
+              <label>Last Name</label>
+            </div>
+            <div *ngIf="formValue.controls['lastName'].dirty && formValue.hasError('required','lastName')" class="text-danger">last name is required</div>
+            <div class="field">
+               <input type="text" name="Email" formControlName="email" required ngModel>
+               <label>Email Address</label>
+            </div>
+            <div *ngIf="formValue.controls['email'].dirty && formValue.hasError('required','email')" class="text-danger">email is required</div>
+            <div *ngIf="formValue.controls['email'].invalid && formValue.controls['email'].touched" class="text-danger">email is invalid</div>
+            <div class="field">
+               <input type="password" name="Password" formControlName="password" required ngModel>
+               <label>Password</label>
+            </div>
+            <div *ngIf="formValue.controls['password'].dirty && formValue.hasError('required','password')" class="text-danger">password is required</div>
+            <div *ngIf="formValue.controls['password'].invalid && formValue.controls['password'].touched" class="text-danger">At least 8 characters long. At least 1 capital letter. At least 1 lowercase letter. At least 1 digit. At least 1 special character</div>
+            <div class="field">
+               <input type="submit" (click)="signup(registerForm)" value="Sign Up">
+            </div>
+            <div class="signup-link">
+               already have an account?<a href="#">Login now</a>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
